@@ -1,0 +1,154 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+main {
+    padding: 0px 16px;
+}
+
+.navbar1 {
+    width: 100%;
+    padding: 16px 16px;
+    display: flex;
+
+}
+
+.navbar1 img {
+    height: 16px;
+}
+
+.navbar1 h2 {
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    margin-top: -2px;
+}
+
+
+
+
+.bill-history {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.bill-history .chips {
+    display: flex;
+}
+
+.bill-history .chips button {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 22px;
+    margin-right: 10px;
+
+}
+
+.list {
+    margin-top: 10px;
+}
+
+.list .cardOne {
+    background-color: #fff;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    border-radius: 12px;
+    width: 100%;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.list .cardOne .cardTitle {
+    display: flex;
+    align-items: center;
+}
+
+.list .cardOne .logo {
+    padding: 8px;
+}
+
+.list .cardOne .logo img {
+    padding: 8px;
+    border-radius: 50px;
+    width: 48px;
+    height: auto;
+}
+
+.list .cardOne .icon img {
+    height: 28px;
+    width: auto;
+    padding: 6px;
+}
+
+
+.list .cardOne h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.list .cardOne .title h4 {
+    font-size: 12px;
+    margin: 0px;
+    color: #adb5bd;
+    font-weight: 400;
+}
+
+
+.moreButton .btn {
+    border-radius: 28px;
+    border: 1px solid #0d6efd;
+    font-size: 10px;
+    color: #0d6efd;
+    padding: 4px 10px;
+    margin-top: 8px;
+}
+
+.listcard {
+    margin-top: 20px;
+}
+
+.listcard h2 {
+    font-size: 16px;
+}
+
+.listcard .cards {
+    padding: 14px 0px;
+    margin: 0px;
+    border-radius: 8px;
+}
+
+
+.select {
+    text-align: center;
+    text-decoration: none;
+    color: #495057;
+    padding: 0px;
+    margin: 0px;
+}
+
+.select:focus {
+    color: #495057;
+}
+
+.listcard .cards .select .logoImage img {
+    width: 48px;
+}
+
+.listcard .cards .select h4 {
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.listcard:last-child {
+    margin-bottom: 50px;
+}
