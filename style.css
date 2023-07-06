@@ -109,7 +109,6 @@ main {}
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 4px;
-    padding: 6px;
 }
 
 .list .cardOne .title h4 {
@@ -148,7 +147,7 @@ main {}
     text-align: center;
     text-decoration: none;
     color: #495057;
-    padding: 0px;
+    padding: 4px;
     margin: 0px;
 }
 
