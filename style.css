@@ -19,6 +19,7 @@ main {
 }
 
 .navbar1 {
+    position: fixed;
     width: 100%;
     padding: 16px 16px;
     display: flex;
