@@ -8,6 +8,12 @@ body {
     position: relative;
 }
 
+.bill-history,
+.logo img,
+.cards {
+    background-color: #e6e6e6;
+}
+
 main {
     padding: 0px 16px;
 }
