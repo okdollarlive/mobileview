@@ -58,6 +58,11 @@ main {
 
 }
 
+.bill-history .chips button:focus {
+    background-color: #0d6efd;
+    border: none;
+}
+
 .list {
     margin-top: 10px;
 }
