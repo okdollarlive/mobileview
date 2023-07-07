@@ -1,7 +1,7 @@
 * {
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'poppins', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -118,7 +118,7 @@ main {}
 }
 
 .list .cardOne .title h4 {
-    font-size: 12px;
+    font-size: 10px;
     margin: 0px;
     color: #adb5bd;
     font-weight: 400;
@@ -189,8 +189,22 @@ main {}
     height: 200px;
 }
 
+form .form-control {
+    border: none;
+    background-color: #dee2e6;
+}
+
+form .form-control:focus {
+    outline: none;
+    border: none;
+    background-color: #dee2e6;
+    box-shadow: 0px 3px 8px #d3d3d3;
+
+}
+
 form a {
     font-size: 12px;
+    color: #6c757d;
 }
 
 form .button {
