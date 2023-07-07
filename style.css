@@ -181,7 +181,7 @@ main {}
 
 .visionFund {
     position: relative;
-    padding: 90px 50px;
+    padding: 60px 50px;
 }
 
 .visionFund .organisationLogo img {
@@ -195,7 +195,7 @@ form a {
 }
 
 form .button {
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 form .btn {
