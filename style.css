@@ -11,14 +11,14 @@ body {
 .bill-history,
 .logo img,
 .cards {
-    background-color: #e6e6e6;
+    background-color: #f5f5f5;
 }
 
 main {
     padding: 0px 16px;
 }
 
-.navbar1 {
+.navBar {
     position: fixed;
     width: 100%;
     padding: 16px 16px;
@@ -29,11 +29,11 @@ main {
 
 }
 
-.navbar1 img {
+.navBar img {
     height: 16px;
 }
 
-.navbar1 h2 {
+.navBar h2 {
     font-size: 16px;
     margin-bottom: 0px;
     margin-left: 12px;
@@ -79,7 +79,7 @@ main {}
     border-radius: 12px;
     width: 100%;
     align-items: center;
-    margin: 10px 0px;
+    margin: 6px 0px;
 }
 
 .list .cardOne .cardTitle {
@@ -94,7 +94,7 @@ main {}
 .list .cardOne .logo img {
     padding: 8px;
     border-radius: 50px;
-    width: 48px;
+    width: 36px;
     height: auto;
 }
 
@@ -106,9 +106,9 @@ main {}
 
 
 .list .cardOne h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    margin-bottom: 4px;
+    margin: 0px 0px 2px 0px;
 }
 
 .list .cardOne .title h4 {
