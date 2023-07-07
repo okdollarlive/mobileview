@@ -70,6 +70,7 @@ main {}
     border: none;
 }
 
+
 .list {
     margin-top: 10px;
 }
@@ -102,7 +103,7 @@ main {}
 }
 
 .list .cardOne .icon img {
-    height: 28px;
+    height: 22px;
     width: auto;
     padding: 6px;
 }
