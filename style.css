@@ -193,8 +193,11 @@ form a {
     font-size: 12px;
 }
 
+form .button {
+    margin-top: 350px;
+}
+
 form .btn {
     font-size: 14px;
-    margin-top: 50px;
-    width: 100px;
+    width: 130px;
 }
