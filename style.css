@@ -171,3 +171,19 @@ main {}
 .listcard:last-child {
     margin-bottom: 50px;
 }
+
+
+
+
+
+
+
+
+.visionFund {
+    position: relative;
+    padding: 50px;
+}
+
+.visionFund .organisationLogo img {
+    width: 250px;
+}
