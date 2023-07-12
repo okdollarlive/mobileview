@@ -6,7 +6,7 @@
 
 body {
     position: relative;
-    background-color: #eff1ff;
+    background-color: #e3e5fe;
 }
 
 .bill-history,
@@ -24,7 +24,7 @@ main {
     width: 100%;
     padding: 16px 16px;
     display: flex;
-    background-color: #ffffff;
+    background-color: #292c31;
     box-shadow: 0px 3px 6px #e6e6e6;
     z-index: 1;
     margin-top: -70px;
@@ -36,6 +36,7 @@ main {
 }
 
 .navBar h2 {
+    color: #f8f9fe;
     font-size: 16px;
     margin-bottom: 0px;
     margin-left: 12px;
@@ -79,7 +80,7 @@ main {}
 }
 
 .list .cardOne {
-    background-color: #eff1ff;
+    background-color: #e3e5fe;
     display: flex;
     padding: 4px;
     justify-content: space-between;
