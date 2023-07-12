@@ -6,12 +6,13 @@
 
 body {
     position: relative;
+    background-color: #eff1ff;
 }
 
 .bill-history,
 .logo img,
 .cards {
-    background-color: #e9ecef;
+    background-color: #f8f9fe;
 }
 
 main {
@@ -78,7 +79,7 @@ main {}
 }
 
 .list .cardOne {
-    background-color: #fff;
+    background-color: #eff1ff;
     display: flex;
     padding: 4px;
     justify-content: space-between;
@@ -113,7 +114,7 @@ main {}
 
 
 .list .cardOne h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin: 0px 0px 2px 0px;
 }
@@ -121,7 +122,7 @@ main {}
 .list .cardOne .title h4 {
     font-size: 10px;
     margin: 0px;
-    color: #adb5bd;
+    color: #252525;
     font-weight: 400;
 }
 
@@ -151,7 +152,7 @@ main {}
 .select {
     text-align: center;
     text-decoration: none;
-    color: #495057;
+    color: #454545;
     padding: 6px;
     margin: 0px;
 }
