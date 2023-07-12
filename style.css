@@ -17,6 +17,7 @@ body {
 
 main {
     padding: 0px 16px;
+    padding-top: 1px;
 }
 
 .navBar {
@@ -25,9 +26,9 @@ main {
     padding: 16px 16px;
     display: flex;
     background-color: #292c31;
-    box-shadow: 0px 3px 6px #e6e6e6;
+    /*     box-shadow: 0px 3px 6px #e6e6e6;
+ */
     z-index: 1;
-    margin-top: -70px;
 
 }
 
@@ -43,7 +44,7 @@ main {
     margin-top: -2px;
 }
 
-main {}
+
 
 
 .bill-history {
