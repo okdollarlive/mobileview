@@ -207,9 +207,13 @@ main {
     border: none;
     border-bottom: 1px solid #252525;
     border-radius: 0px;
-
+    background-color: #e3e5fe;
 }
 
+textarea:focus,
+input:focus {
+    outline: none;
+}
 
 .form-floating:first-child {
     margin-top: 40px;
