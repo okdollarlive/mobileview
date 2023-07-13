@@ -198,8 +198,22 @@ main {
 }
 
 .visionFund .organisationLogo img {
-    width: 250px;
-    height: 200px;
+    margin-top: 40px;
+    width: 150px;
+    height: auto;
+}
+
+.form-floating .form-control {
+    border: none;
+    border-bottom: 1px solid #252525;
+    border-radius: 0px;
+
+}
+
+
+.form-floating:first-child {
+    margin-top: 40px;
+
 }
 
 form a {

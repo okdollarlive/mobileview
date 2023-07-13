@@ -22,8 +22,8 @@
         <h2>Bill Payment</h2>
     </nav>
 
-    <main>
-        <div class="bill-history container">
+    <main style="display: none;">
+        <div class=" bill-history container">
             <div class="chips">
                 <button type="button" class="btn  btn-light" autofocus>Recent History</button>
                 <button type="button " class="btn btn-light">Pending Bill</button>
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <div class="listcard">
+        <!-- <div class="listcard">
             <h2>WynePay</h2>
             <div class="cards row">
                 <a href="visionFund" class="select col-3">
@@ -205,10 +205,10 @@
                     </div>
                 </a>
             </div>
-        </div>
+        </div> -->
 
 
-        <!--  <div class="listcard">
+        <div class="listcard">
             <h2>Internet Bill Payment</h2>
             <div class="cards row">
                 <a href="#" class="select col-3">
@@ -401,31 +401,28 @@
                 </a>
             </div>
         </div>
- -->
+
 
 
 
     </main>
 
-    <main class="visionFund" id="vision" style="display: none;">
-        <div class="organisationLogo">
-            <img class="mx-auto d-block" src="Images/Png/SVG/Vision fund.svg" alt="">
+    <main class="visionFund" id="vision" ">
+        <div class=" organisationLogo">
+        <img class="mx-auto d-block" src="Images/Png/VisionFund Myanmar copy.png" alt="">
         </div>
 
         <form>
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label" placeholder="example@mail.com">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
             </div>
-            <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-                <a href="#">Forget Password ?</a>
-
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
             </div>
-
             <div class="button text-center">
-                <button type="submit" class="btn btn-outline-dark me-2">Cancel</button>
+                <button type="submit" class="btn btn-light btn-outline-dark me-2">Cancel</button>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>
