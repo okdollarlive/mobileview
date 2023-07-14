@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div style="display: none;">
+    <div id="billpayment" style="display: none;">
         <nav class="navBar align-self-center">
             <img src="Images/SVG/arrow white.svg" alt="">
             <h2>Bill Payment</h2>
@@ -88,8 +88,8 @@
             <div class="listcard">
                 <h2>WynePay</h2>
                 <div class="cards row">
-                    <a href="#vision" class="select col-3">
-                        <div class="selceted">
+                    <a class="select col-3">
+                        <div class="selceted" href="#vision">
                             <div class="logoImage">
                                 <img src="Images/SVG/Vision fund.svg" alt="">
                             </div>
@@ -404,7 +404,7 @@
     </div>
     </main>
 
-    <main class="visionFund" id="vision">
+    <main class="visionFund" id="vision" style="display: none;">
         <div class=" organisationLogo">
             <img class="mx-auto d-block" src="Images/Png/VisionFund Myanmar copy.png" alt="">
         </div>
@@ -419,7 +419,33 @@
                 <label for="floatingPassword">Password</label>
             </div>
             <div class="button text-center">
-                <button type="submit" class="btn btn-outline-dark me-2">Cancel</button>
+                <button type="submit" class="btn btn-outline-dark me-2" href="#billpayment">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </main>
+
+
+    <main class="visionFund" id="vision">
+        <div class=" organisationLogo">
+            <img class="mx-auto d-block" src="Images/Png/VisionFund Myanmar copy.png" alt="">
+        </div>
+
+        <form>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="text">
+                <label for="floatingInput">Customer Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="floatingInput" placeholder="123-456">
+                <label for="floatingInput">Invoice Id</label>
+            </div>
+            <div class="form-floating">
+                <input type="number" class="form-control" id="floatingPassword" placeholder="Mobile Number">
+                <label for="floatingPassword">Mobile Number</label>
+            </div>
+            <div class="button text-center">
+                <button type="submit" class="btn btn-outline-dark me-2" href="#billpayment">Cancel</button>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>
