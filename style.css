@@ -222,6 +222,7 @@ main {
 }
 
 .form-control {
+    border-radius: 12px;
     height: 50px;
     border: none;
     background-color: #e3e5fe;
@@ -239,7 +240,6 @@ input:focus {
     outline: none;
 }
 
-.form-floating {}
 
 form a {
     font-size: 12px;
@@ -251,6 +251,7 @@ form .button {
 }
 
 form .btn {
+    border-radius: 12px;
     font-size: 16px;
     width: 165px;
     height: 48px;
