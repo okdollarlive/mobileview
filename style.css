@@ -205,7 +205,7 @@ main {
 }
 
 form {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .inputs h3 {
@@ -215,10 +215,7 @@ form {
     font-weight: 700;
 }
 
-.form-floating .form-control {
-    border: none;
-    box-shadow: 0px 0px 8px #e3e5fe;
-}
+.form-floating .form-control {}
 
 
 
