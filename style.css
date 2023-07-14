@@ -204,6 +204,10 @@ main {
     height: auto;
 }
 
+form {
+    margin-top: 100px;
+}
+
 .inputs h3 {
     text-align: center;
     margin-top: 20px;
@@ -237,7 +241,7 @@ form a {
 }
 
 form .button {
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 form .btn {
