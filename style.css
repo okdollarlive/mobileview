@@ -204,8 +204,9 @@ main {
     height: auto;
 }
 
-form {
+.row {
     margin-top: 80px;
+    display: flex;
 }
 
 .inputs h3 {
@@ -215,19 +216,24 @@ form {
     font-weight: 700;
 }
 
-.form-floating .form-control {}
+.form-control {
+    height: 50px;
+    border: none;
+    box-shadow: 0px 0px 8px #e7e7e7;
+}
 
 
+.form-control:focus {
+    outline: none;
+    outline-style: none;
+}
 
 textarea:focus,
 input:focus {
     outline: none;
 }
 
-.form-floating:first-child {
-    margin-top: 40px;
-
-}
+.form-floating {}
 
 form a {
     font-size: 12px;
@@ -235,7 +241,7 @@ form a {
 }
 
 form .button {
-    margin-top: 250px;
+    margin-top: 20a0px;
 }
 
 form .btn {
