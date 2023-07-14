@@ -192,15 +192,23 @@ main {
 
 
 
-.visionFund {
+.inputs {
     position: relative;
     padding: 60px 50px;
 }
 
-.visionFund .organisationLogo img {
-    margin-top: 40px;
-    width: 150px;
+
+.inputs .organisationLogo img {
+    margin-top: 20px;
+    width: 50px;
     height: auto;
+}
+
+.inputs h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .form-floating .form-control {
@@ -208,7 +216,10 @@ main {
     border-bottom: 1px solid #252525;
     border-radius: 0px;
     background-color: #e3e5fe;
+    height: 50px;
 }
+
+
 
 textarea:focus,
 input:focus {
