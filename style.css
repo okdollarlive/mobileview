@@ -6,7 +6,7 @@
 
 body {
     position: relative;
-    background-color: #e3e5fe;
+    background-color: #ffffff;
 }
 
 .bill-history,
@@ -215,13 +215,7 @@ form {
     font-weight: 700;
 }
 
-.form-floating .form-control {
-    border: none;
-    border-bottom: 1px solid #252525;
-    border-radius: 0px;
-    background-color: #e3e5fe;
-    height: 50px;
-}
+.form-floating .form-control {}
 
 
 
