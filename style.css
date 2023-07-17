@@ -202,9 +202,12 @@ main {
     padding: 60px 32px;
 }
 
+.organisationLogo {
+    text-align: center;
+}
 
-.inputs .organisationLogo img {
-    margin-top: 20px;
+.logo {
+    margin-top: 100px;
     width: 50px;
     height: auto;
 }
@@ -213,6 +216,7 @@ main {
     margin-top: 40px;
     display: flex;
 }
+
 
 .inputs h3 {
     text-align: center;
