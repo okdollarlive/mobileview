@@ -221,7 +221,8 @@ main {
     font-weight: 700;
 }
 
-.form-control {
+.form-control,
+.input-group-text {
     border-radius: 12px;
     height: 50px;
     border: none;
