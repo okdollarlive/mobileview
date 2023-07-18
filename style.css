@@ -356,4 +356,9 @@ form .btn {
 .summary .button .cancel {
     color: #0d6efd;
     text-decoration: underline;
+    outline: none;
+}
+
+.summary .button .cancel:focus {
+    border: none;
 }
