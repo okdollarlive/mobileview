@@ -294,7 +294,7 @@ form .btn {
 }
 
 .order-summary h2 {
-    color: #0d6efd;
+    color: #252525;
     font-size: 22px;
     font-weight: 600;
 }
@@ -349,6 +349,8 @@ form .btn {
 .summary .button .btn {
     width: 100%;
     height: 48px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
