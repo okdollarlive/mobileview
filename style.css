@@ -303,12 +303,11 @@ form .btn {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    padding: 0px 16px;
 }
 
 
 .order-summary .summary-content h3 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .order-summary .summary-content .input-name h3 {
@@ -321,15 +320,15 @@ form .btn {
 .order-summary .summary-content .input-value h3 {
     text-align: right;
     color: #656565;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 
 .order-summary .summary-content .input-name h2 {
     text-align: left;
     color: #252525;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
