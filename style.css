@@ -15,25 +15,35 @@ body {
     background-color: #f8f9fe;
 }
 
-main {
+.content {
+    position: relative;
     padding: 0px 16px;
     padding-top: 1px;
+    margin-top: 90px;
 }
 
-.navBar {
+.content h3 {
+    font-size: 16px;
+}
+
+.billpayment .navBar {
     position: fixed;
-    /*     width: 100%;
- */
+    width: 100%;
     padding: 16px 16px;
     display: flex;
-
-    /*     box-shadow: 0px 3px 6px #e6e6e6;
- */
     z-index: 1;
+    margin-top: -90px;
 
 }
 
-.navBar img {
+.billpayment .navBar img {
+    height: 32px;
+    width: 32px;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.inputs .navBar img {
     height: 32px;
     width: 32px;
     border-radius: 8px;
@@ -42,36 +52,24 @@ main {
 }
 
 .navBar h2 {
-    color: #f8f9fe;
+    color: #454545;
     font-size: 16px;
     margin-bottom: 0px;
-    margin-left: 12px;
-    margin-top: -2px;
+    margin-left: 8px;
+    margin-top: 6px;
 }
 
 
 
-
-.bill-history {
-    padding: 16px;
+.content .bill-history {
+    padding: 8px 12px;
     border-radius: 16px;
-    margin-top: 70px;
 }
 
 .bill-history .chips {
     display: flex;
 }
 
-.bill-history .chips button,
-.moreButton .btn {
-    font-size: 10px;
-    font-weight: 600;
-    padding: 4px 12px;
-    border-radius: 22px;
-    border: .5px solid #6c757d;
-    margin-right: 8px;
-
-}
 
 .bill-history .chips button:focus,
 .moreButton .btn:focus {
@@ -141,8 +139,9 @@ main {
 .moreButton .btn {
     border-radius: 28px;
     font-size: 10px;
-    padding: 4px 10px;
+    padding: 2px 8px;
     margin-top: 4px;
+    text-decoration: underline;
 }
 
 .listcard {
@@ -199,26 +198,41 @@ main {
 
 .inputs {
     position: relative;
-    padding: 60px 32px;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    padding: 16px 16px;
+    display: flex;
+    z-index: 1;
+    background-color: #fff;
+    margin-top: -100px;
 }
 
 .organisationLogo {
     text-align: center;
 }
 
-.logo {
-    margin-top: 100px;
+.organisationLogo .logo {
     width: 50px;
     height: auto;
+    margin-top: 100px;
 }
+
+
 
 .row {
     margin-top: 40px;
     display: flex;
 }
 
+.content {
+    padding: 0px 16px;
+}
 
-.inputs h3 {
+
+.organisationLogo h3 {
     text-align: center;
     margin-top: 20px;
     font-size: 22px;
@@ -241,6 +255,9 @@ main {
 
 }
 
+.remarks .form-control {
+    height: 150px;
+}
 
 
 textarea:focus,
@@ -263,4 +280,64 @@ form .btn {
     font-size: 16px;
     width: 165px;
     height: 48px;
+}
+
+.summary {}
+
+.order-summary {
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    padding: 0px 16px;
+}
+
+.order-summary h2 {
+    color: #0d6efd;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.order-summary .summary-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 16px;
+}
+
+
+.order-summary .summary-content h3 {
+    font-size: 16px;
+}
+
+.order-summary .summary-content .input-name h3 {
+    text-align: left;
+    font-weight: 400;
+    color: #656565;
+}
+
+
+.order-summary .summary-content .input-value h3 {
+    text-align: right;
+    color: #656565;
+    font-weight: 600;
+}
+
+
+.order-summary .summary-content .input-name h2 {
+    text-align: left;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.order-summary .summary-content .input-value h2 {
+    text-align: right;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.order-summary .seperator {
+    width: 100%;
 }
