@@ -336,7 +336,7 @@ form .btn {
     text-align: right;
     color: #252525;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .order-summary .seperator {
@@ -346,10 +346,10 @@ form .btn {
 
 
 .summary .button .btn {
-    width: 100%;
+    width: 75%;
     height: 48px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 
