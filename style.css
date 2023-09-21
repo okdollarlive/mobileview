@@ -1,8 +1,16 @@
 * {
     padding: 0px;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #a9a9a9;
+}
+
 
 body {
     position: relative;
@@ -26,17 +34,18 @@ body {
     font-size: 16px;
 }
 
-.billpayment .navBar {
+.navBar {
     position: fixed;
     width: 100%;
     padding: 16px 16px;
     display: flex;
     z-index: 1;
+    background-color: #FBD254;
     margin-top: -90px;
 
 }
 
-.billpayment .navBar img {
+.navBar img {
     height: 32px;
     width: 32px;
     border-radius: 8px;
@@ -200,8 +209,8 @@ body {
     position: relative;
 }
 
-.navBar {
-    position: fixed;
+.inputs .navBar {
+    position: absolute;
     width: 100%;
     padding: 16px 16px;
     display: flex;
@@ -232,6 +241,10 @@ body {
 }
 
 
+
+
+
+
 .organisationLogo h3 {
     text-align: center;
     margin-top: 20px;
@@ -242,16 +255,39 @@ body {
 .form-control,
 .input-group-text,
 .form-select {
-    border-radius: 12px;
+
     height: 50px;
     border: none;
-    background-color: #e3e5fe;
+    background-color: #dee2e6;
 }
 
+
+select:focus:not([readonly]) {
+    border: none;
+    box-shadow: 0 0 0 0 #ffffff;
+    background-color: #ffffff;
+}
+
+option {
+    background-color: #f7f7f7;
+    color: #000000;
+    border: none;
+}
+
+option:focus-visible {
+    background-color: #0d6efd;
+}
+
+input[type=text]:focus:not([readonly]) {
+    border: none;
+    box-shadow: 0 0 0 0 #ffffff;
+    background-color: #ffffff;
+}
 
 .form-control:focus {
     outline: none;
     outline-style: none;
+    border: none;
 
 }
 
@@ -276,7 +312,6 @@ form .button {
 }
 
 form .btn {
-    border-radius: 12px;
     font-size: 16px;
     width: 165px;
     height: 48px;
@@ -293,10 +328,17 @@ form .btn {
     padding: 0px 16px;
 }
 
+
+.order-summary img {
+    padding: 40px;
+    width: 144px;
+
+}
+
 .order-summary h2 {
     color: #252525;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 800;
 }
 
 .order-summary .summary-content {
@@ -306,21 +348,31 @@ form .btn {
 }
 
 
-.order-summary .summary-content h3 {
-    font-size: 14px;
+.order-summary .totalValue h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.order-summary .totalValue h6 {
+    color: #a9a9a9;
+    font-size: 18px;
 }
 
 .order-summary .summary-content .input-name h3 {
     text-align: left;
+    color: #a9a9a9;
+    font-size: 16px;
     font-weight: 400;
-    color: #656565;
+
 }
 
 
 .order-summary .summary-content .input-value h3 {
     text-align: right;
-    color: #656565;
-    font-weight: 400;
+    font-size: 18px;
+    color: #454545;
+    font-weight: 700;
 }
 
 
@@ -350,15 +402,77 @@ form .btn {
     height: 48px;
     font-size: 18px;
     font-weight: 500;
+    background-color: #FBD254;
 }
 
+.paymentFailed .button .btn {
+    background-color: #ff4444 !important;
+    color: #fff;
+}
 
 .summary .button .cancel {
-    color: #0d6efd;
+    background-color: #ffffff;
+    color: #000000;
     text-decoration: underline;
     outline: none;
 }
 
 .summary .button .cancel:focus {
     border: none;
+}
+
+
+
+
+
+/*paymenthistory*/
+
+.historyCard {
+    background-color: #fff;
+    padding: 22px 18px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+.paymentHistory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.paymentHistory .icon {}
+
+.paymentHistory h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 4px 0;
+
+}
+
+.paymentHistory h4 {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 0px;
+
+}
+
+
+.failed .failIcon {
+    border-radius: 60px;
+    background-color: red;
+    width: 28px;
+    height: 28px;
+    fill: #fff;
+    vertical-align: text-top;
+}
+
+
+.success .successIcon {
+    border-radius: 60px;
+    background-color: green;
+    width: 28px;
+    height: 28px;
+    fill: #fff;
+    vertical-align: text-top;
 }
